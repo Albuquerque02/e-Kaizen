@@ -31,13 +31,14 @@ height: 80%;
 export const Table = styled.table`
 border: 2px solid;
 width: 100%;
-
 tr:nth-child(even) {
   background:#E5F0F7;
 }
+border-collapse: collapse;
+border-top: none;
 `
 
-export const Tr = styled.tr`    
+export const Tr = styled.tr`  
 `
 
 export const Th = styled.th`
@@ -60,5 +61,7 @@ export const Button = styled.button`
 `
 
 export const Td = styled.th`
+border: 1px solid;
+
 
 `

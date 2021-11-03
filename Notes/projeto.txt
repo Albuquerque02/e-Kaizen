@@ -21,8 +21,6 @@ Listagem de clientes
 Criação de um cliente
 Edição de um cliente
 Deleção de um cliente
-Por padrão nós usamos as seguintes soluções no desenvolvimento do Frontend: Angular, Nebular e DevExtreme.
 
-Para o Backend usamos Express, Celebrate e TypeORM.
 
 Sinta-se livre para realizar mudanças pertinentes, o desenho serve apenas de base.

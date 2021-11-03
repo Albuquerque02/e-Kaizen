@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import { Container, Hr, Content, Table, Tr, Th, Button, Td } from './style'
+import { AiFillDelete } from "react-icons/ai";
+import { RiMoneyDollarCircleFill } from "react-icons/ri";
+import { AiOutlineEdit } from "react-icons/ai";
 
 const ViewCliente = () => {
     return(
@@ -72,6 +75,9 @@ const ViewCliente = () => {
                             </Td>
                             <Td>
                                 (19) 996047221
+                            </Td>
+                            <Td>
+                            <AiFillDelete size="25"/> <RiMoneyDollarCircleFill size="25" /> <AiOutlineEdit size="25"/>
                             </Td>
                             </Tr>
                     </tbody>
