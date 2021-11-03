@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
- 
+import { createGlobalStyle } from 'styled-components'
+
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
@@ -7,6 +7,8 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
     background-color: #E5F0F7;
   }
-`;
- 
-export default GlobalStyle;
+
+  
+`
+
+export default GlobalStyle

@@ -36,20 +36,20 @@ const ViewCliente = () => {
                     <tbody>
                         <Tr>
                             <Td>
-                                Felipe Albuquerque
+                                <input type="search" name="" id="" placeholder="Filtrar" />
                             </Td>
                         
                             <Td>
-                                111.111.111.111
+                            <input type="search" name="" id="" placeholder="Filtrar" />
                             </Td>
                             <Td>
-                                Médio Porte
+                            <input type="search" name="" id="" placeholder="Filtrar" />
                             </Td>
                             <Td>
-                                500
+                            <input type="search" name="" id="" placeholder="Filtrar" />
                             </Td>
                             <Td>
-                                (19) 996047221
+                            <input type="search" name="" id="" placeholder="Filtrar" />
                             </Td>
                             <Td>
                             <Link to="/CreateOrcamento">
@@ -61,23 +61,23 @@ const ViewCliente = () => {
                             </Tr>
                             <Tr>
                             <Td>
-                                Felipe Albuquerque
+                               
                             </Td>
                         
                             <Td>
-                                111.111.111.111
+                                
                             </Td>
                             <Td>
-                                Médio Porte
+                                
                             </Td>
                             <Td>
-                                500
+                               
                             </Td>
                             <Td>
-                                (19) 996047221
+                                
                             </Td>
                             <Td>
-                            <AiFillDelete size="25"/> <RiMoneyDollarCircleFill size="25" /> <AiOutlineEdit size="25"/>
+                             <RiMoneyDollarCircleFill size="25" /> <AiOutlineEdit size="25"/> <AiFillDelete size="25"/>
                             </Td>
                             </Tr>
                     </tbody>
