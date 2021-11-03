@@ -1,0 +1,28 @@
+A ideia do desafio é montar uma ferramenta de orçamentos para que algum vendedor possa realizar cotações ao seu cliente, onde é possível cadastrar as soluções a serem ofertadas e montar uma cotação para um cliente específico.
+A ordem de visualização das telas é Passo 2-1, Passo 4, Passo 1, Passo 2 e Passo 3.
+
+Requisitos do Frontend:
+Tela de listagem de ferramentas 
+Formulário de criação de uma ferramenta
+Formulário de edição de uma ferramenta
+Formulário de deleção de uma ferramenta
+Tela de listagem de clientes
+Tela de criação/edição de um cliente
+Tela de seleção de ferramentas para um cliente
+Tela de verificação de cotação de um cliente
+Formulário de deleção de um cliente
+Impressão da cotação (Usando funcionalidade nativa do navegador)
+Requisitos do Backend:
+
+Listagem de ferramentas
+Criação de uma ferramenta
+Edição de uma ferramenta
+Listagem de clientes
+Criação de um cliente
+Edição de um cliente
+Deleção de um cliente
+Por padrão nós usamos as seguintes soluções no desenvolvimento do Frontend: Angular, Nebular e DevExtreme.
+
+Para o Backend usamos Express, Celebrate e TypeORM.
+
+Sinta-se livre para realizar mudanças pertinentes, o desenho serve apenas de base.

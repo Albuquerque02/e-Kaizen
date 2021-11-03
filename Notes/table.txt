@@ -1,0 +1,15 @@
+import { Container, Hr, Content, Table, Tr, Th } from './style'
+
+<Container>
+                <h2>Criaçaõ de Orçamento</h2>
+                <Hr/>
+                <Content>
+                <Table>
+                    <Tr>
+                        <Th>
+                            
+                        </Th>
+                    </Tr>
+                </Table>
+                </Content>
+            </Container>
