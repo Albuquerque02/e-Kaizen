@@ -12,7 +12,7 @@ export const Container = styled.div`
   transform: translate(-50%);
 
   h2 {
-    margin-left: 0.5rem;
+    margin-left: 40px;
   }
 `
 

@@ -14,6 +14,12 @@ export const Container = styled.div`
     h2{
         margin-left: 40px;
     }
+
+    legend{
+        margin-top: 10px;
+        margin-left: 38px;
+        font-weight: bolder;
+    };
 `
 
 export const Hr = styled.div`
@@ -23,7 +29,7 @@ export const Hr = styled.div`
 `
 
 export const Head = styled.div`
-margin: 5% auto auto 30%;
+margin-left: 40px;
 width: 50%;
 display: flex;
 justify-content: space-between  ;
@@ -56,6 +62,7 @@ export const Content = styled.div`
 export const Table = styled.table`
   border: 2px solid;
   width: 100%;
+  height: 20%;
   tr:nth-child(even) {
     background: #e5f0f7;
   }
@@ -84,24 +91,4 @@ export const Button = styled.button`
 
 export const Td = styled.th`
   border: 1px solid;
-`
-
-export const Valor = styled.div`
-text-align: left;
-width: 15%;
-height: 9%;
-background-color: whitesmoke;
-
-
-p{
-    font-weight: bolder;
-    margin-left: 2px;
-}
-`
-
-export const Rodape = styled.div`
-width: 100%;
-display: flex;
-justify-content: right;
-
 `
