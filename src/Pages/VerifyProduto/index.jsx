@@ -2,11 +2,26 @@ import { Container, Hr, Content, Table, Tr, Th, Button, Td } from './style'
 import { Link } from 'react-router-dom';
 import { AiOutlineEdit } from "react-icons/ai";
 import Voltar from "../../Components/GoBack"
+import Modal from 'react-modal'
+import { useState } from 'react'
 
+
+Modal.setAppElement('#root')
 
 const VerifyCliente = () => {
+    const [modalIsOpen, setModalIsOpen] = useState(false)
+
     return(
         <Container>
+             { <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}  shouldCloseOnOverlayClick={false}  className='Modal' overlayClassName="Overlay">
+          <div style={{ borderRadius: '2px' }}>
+            <button className='btn-fechar' onClick={() => setModalIsOpen(false)}> X </button>
+          </div>
+          <div className='contentModal'>
+            <button className="btn"> <Link to={"/Login"} style={{ textDecoration: 'none', fontSize: '18px' }}>Já tenho cadastro</Link></button>
+            <button className="btn"> <Link to={"/Register"} style={{ textDecoration: 'none', fontSize: '18px' }}>Não tenho cadastro</Link></button>
+          </div>
+        </Modal> }
                 <h2>Cadastro de Ferramentas</h2>
                 <Hr/>
                 <Content>
@@ -26,11 +41,9 @@ const VerifyCliente = () => {
                                     Base- Grande Porte
                                 </Th>
                                 <Th>
-                                    <Link to='#'>
-                                        <Button>
-                                            +
+                                        <Button onClick={() => setModalIsOpen(true)}>
+                                           +
                                         </Button>
-                                    </Link>
                                 </Th>
 
                             </Tr>
