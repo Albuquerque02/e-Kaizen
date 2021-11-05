@@ -1,4 +1,5 @@
 import { Container, Hr, Head, InputLabel, Content, Table, Tr, Th, Td } from './style'
+import { Button } from '../CreateOrcamento/style'
 import {Link} from 'react-router-dom'
 import Voltar from '../../Components/GoBack/index'
 
@@ -90,8 +91,10 @@ const Produtos = () => {
                             </Tr>
                         </tbody>
                     </Table>
-                    <Link to="/SelectFerramentas" ><button>Próximo</button></Link>
+                    <Button>
                     <Voltar/>
+                    <Link to="/SelectFerramentas" ><button>Próximo</button></Link>
+                    </Button>
                 </Content>
             </Container>
     );

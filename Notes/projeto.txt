@@ -12,7 +12,7 @@ Tela de seleção de ferramentas para um cliente
 Tela de verificação de cotação de um cliente
 Formulário de deleção de um cliente
 Impressão da cotação (Usando funcionalidade nativa do navegador)
-Requisitos do Backend:
+Requisitos do Backend: 
 
 Listagem de ferramentas
 Criação de uma ferramenta

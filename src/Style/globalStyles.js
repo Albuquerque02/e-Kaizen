@@ -8,17 +8,6 @@ const GlobalStyle = createGlobalStyle`
     background-color: #E5F0F7;
     overflow: hidden;
   }
-
-  table {
-    max-width: 100%;
-    overflow: scroll;
-  };
-
-
-  
-  
-
-  
 `
 
 export default GlobalStyle

@@ -68,3 +68,24 @@ export const Button = styled.button`
 export const Td = styled.th`
   border: 1px solid;
 `
+export const Produtos = styled.button`
+  margin: 30px auto auto 9px;
+  width: 450px;
+  font-weight: bolder;
+  font-size: 30px;
+  background: #2360b1;
+  border: 0;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  &:hover {
+    opacity: 90%;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+  }
+`

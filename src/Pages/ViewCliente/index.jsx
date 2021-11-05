@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom";
-import { Container, Hr, Content, Table, Tr, Th, Button, Td } from './style'
+import { Container, Hr, Content, Table, Tr, Th, Button, Td, Produtos } from './style'
 import { AiFillDelete } from "react-icons/ai";
 import { RiMoneyDollarCircleFill } from "react-icons/ri";
 import { AiOutlineEdit } from "react-icons/ai";
 
+
+
 const ViewCliente = () => {
     return(
+        
             <Container>
-                <h2>Criaçaõ de Orçamento</h2>
+                <h2>Criação de Orçamento</h2>
                 <Hr/>
                 <Content>
                 <Table>
@@ -82,6 +85,7 @@ const ViewCliente = () => {
                             </Tr>
                     </tbody>
                 </Table>
+                <Produtos><Link to="/VerifyProduto">Produtos Cadastrados</Link></Produtos>
                 </Content>
             </Container>
     );

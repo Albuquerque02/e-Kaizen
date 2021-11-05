@@ -1,6 +1,6 @@
 import eKaizen from '../../Assets/Images/logo.png'
 import {Nav, Logo, User} from './style'
-import { AiOutlineUser } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {    
     return(

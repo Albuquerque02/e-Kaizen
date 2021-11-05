@@ -1,4 +1,5 @@
 import { Container, Hr, Head, InputLabel, Content, Table, Tr, Th, Valor, Rodape, Td } from './style'
+import { Button } from '../CreateOrcamento/style'
 import { Link } from 'react-router-dom';
 import Voltar from '../../Components/GoBack'
 
@@ -77,8 +78,10 @@ const SelectFerramentas = () => {
                             <p>Valor Total: U$ ??.???.???,??</p>
                         </Valor>
                         </Rodape>
+                        <Button>
                         <Voltar />
-                        <Link to="/VerifyProduto"><button>Enviar</button></Link>
+                        <Link to="/"><button>Enviar</button></Link>
+                        </Button>
                     </Content>
         </Container>
     );

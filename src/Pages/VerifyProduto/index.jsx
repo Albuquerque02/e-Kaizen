@@ -1,4 +1,5 @@
-import { Container, Hr, Content, Table, Tr, Th, Button, Td } from './style'
+import { Container, Hr, Content, Table, Tr, Th, Button, Td, ModalOpen, Submit, Fechar, Form,
+InputLabel } from './style'
 import { Link } from 'react-router-dom';
 import { AiOutlineEdit } from "react-icons/ai";
 import Voltar from "../../Components/GoBack"
@@ -14,13 +15,46 @@ const VerifyCliente = () => {
     return(
         <Container>
              { <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}  shouldCloseOnOverlayClick={false}  className='Modal' overlayClassName="Overlay">
-          <div style={{ borderRadius: '2px' }}>
-            <button className='btn-fechar' onClick={() => setModalIsOpen(false)}> X </button>
-          </div>
-          <div className='contentModal'>
-            <button className="btn"> <Link to={"/Login"} style={{ textDecoration: 'none', fontSize: '18px' }}>Já tenho cadastro</Link></button>
-            <button className="btn"> <Link to={"/Register"} style={{ textDecoration: 'none', fontSize: '18px' }}>Não tenho cadastro</Link></button>
-          </div>
+          <ModalOpen>
+            <Form>
+                <form>
+                <h2>Criação de Ferramenta</h2>
+                <Hr/>
+                <InputLabel>
+                <label>Nome do Produto/Ferramenta</label>
+                <input type="text" name="" id="" required />
+                </InputLabel>
+                <InputLabel>
+                <label>Base - Pequeno Porte (U$)</label>
+                <input type="text" name="" id="" required />
+                </InputLabel>
+                <InputLabel>
+                <label>Base - Médio Porte (U$)</label>
+                <input type="text" name="" id="" required />
+                </InputLabel>
+                <InputLabel>
+                <label>Base - Grande Porte (U$)</label>
+                <input type="text" name="" id="" required />
+                </InputLabel>
+                <InputLabel>
+                <label>Valor com Imposto</label>
+                <input type="text" name="" id="" required />
+                </InputLabel>
+                <InputLabel>
+                <label>Valor sem Imposto</label>
+                <input type="text" name="" id="" required />
+                </InputLabel>
+                <InputLabel>
+                <label>Valor p/ Parceiro</label>
+                <input type="text" name="" id="" required />
+                </InputLabel>
+                <Submit>
+                <button type="submit"> Enviar </button>
+                </Submit>
+                </form>
+                <Fechar> <button onClick={() => setModalIsOpen(false)}>Fechar</button></Fechar>
+            </Form>
+          </ModalOpen>
         </Modal> }
                 <h2>Cadastro de Ferramentas</h2>
                 <Hr/>
@@ -51,7 +85,7 @@ const VerifyCliente = () => {
                         <tbody>
                         <Tr>
                                 <Td>
-                                    <input type="search" name="" id="" placeholder="Filtrar" />
+                                    <input type="search" name="" id=""  placeholder="Filtrar" />
                                 </Td>
                                 <Td>
                                     <input type="search" name="" id="" placeholder="Filtrar" />
@@ -80,7 +114,7 @@ const VerifyCliente = () => {
                                 U$ 165.000.000,00
                                 </Td>
                                 <Td>
-                                <AiOutlineEdit size="25"/>                                
+                                <a onClick={() => setModalIsOpen(true)}> <AiOutlineEdit size="25" />  </a>                                 
                                 </Td>
                             </Tr>
                             <Tr>
@@ -97,7 +131,7 @@ const VerifyCliente = () => {
                                 U$ 165.000.000,00
                                 </Td>
                                 <Td>
-                                <AiOutlineEdit size="25"/>                                
+                                <a onClick={() => setModalIsOpen(true)}> <AiOutlineEdit size="25" />  </a>                             
                                 </Td>
                             </Tr>
                             <Tr>
@@ -113,8 +147,8 @@ const VerifyCliente = () => {
                                 <Td>
                                 U$ 165.000.000,00
                                 </Td>
-                                <Td>
-                                <AiOutlineEdit size="25"/>                                
+                                <Td> 
+                                    <a onClick={() => setModalIsOpen(true)}> <AiOutlineEdit size="25" />  </a>                         
                                 </Td>
                             </Tr>
                         </tbody>
