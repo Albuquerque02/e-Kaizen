@@ -69,6 +69,7 @@ const SelectFerramentas = () => {
                                 U$ 22.110.000,00
                                 </Td>
                             </Tr>
+                            
                         </tbody>
                     </Table>
                     <Rodape>

@@ -1,19 +1,19 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
-    margin-top:5%;
-    width: 90%;
-    height: 70%;
-    background: #fff;
-    box-shadow: 0px 3px 12px -3px rgba(0, 0, 0, 0.5);
-    border-radius: .5rem;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+  margin-top: 5%;
+  width: 90%;
+  height: 70%;
+  background: #fff;
+  box-shadow: 0px 3px 12px -3px rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 
-    h2{
-        margin-left: 40px;
-    }
+  h2 {
+    margin-left: 40px;
+  }
 `
 
 export const Hr = styled.div`
@@ -23,29 +23,27 @@ export const Hr = styled.div`
 `
 
 export const Head = styled.div`
-margin: 5% auto auto 30%;
-width: 50%;
-display: flex;
-justify-content: space-between  ;
+  margin: 5% auto auto 30%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 `
 
 export const InputLabel = styled.div`
-display: flex;
-flex-direction: column;
-margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 
-label{
+  label {
     font-weight: bolder;
-}
+  }
 
-input {
-  border: 1px solid #18a4f4;
-  border-radius: 4px;
-  height: 20px;
-}
-  `
-  
-
+  input {
+    border: 1px solid #18a4f4;
+    border-radius: 4px;
+    height: 20px;
+  }
+`
 
 export const Content = styled.div`
   margin: 5% auto 10% auto;
@@ -87,21 +85,19 @@ export const Td = styled.th`
 `
 
 export const Valor = styled.div`
-text-align: left;
-width: 15%;
-height: 9%;
-background-color: whitesmoke;
+  text-align: left;
+  width: 20%;
+  height: 9%;
+  background-color: whitesmoke;
 
-
-p{
+  p {
     font-weight: bolder;
     margin-left: 2px;
-}
+  }
 `
 
 export const Rodape = styled.div`
-width: 100%;
-display: flex;
-justify-content: right;
-
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 `
