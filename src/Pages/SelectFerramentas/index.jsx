@@ -2,6 +2,7 @@ import { Container, Hr, Head, InputLabel, Content, Table, Tr, Th, Valor, Rodape,
 import { Link } from 'react-router-dom';
 import Voltar from '../../Components/GoBack'
 
+
 const SelectFerramentas = () => {
     return(
         <Container>
@@ -76,7 +77,7 @@ const SelectFerramentas = () => {
                         </Valor>
                         </Rodape>
                         <Voltar />
-                        <Link to="/VerifyProduto"><button>Próximo</button></Link>
+                        <Link to="/VerifyProduto"><button>Enviar</button></Link>
                     </Content>
         </Container>
     );
