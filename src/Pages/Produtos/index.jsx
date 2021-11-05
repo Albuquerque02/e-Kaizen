@@ -1,4 +1,4 @@
-import { Container, Hr, Head, InputLabel, Content, Table, Tr, Th, Button, Td } from './style'
+import { Container, Hr, Head, InputLabel, Content, Table, Tr, Th, Td } from './style'
 import {Link} from 'react-router-dom'
 import Voltar from '../../Components/GoBack/index'
 

@@ -1,4 +1,6 @@
 import { Container, Hr, Head, InputLabel, Content, Table, Tr, Th, Valor, Rodape, Td } from './style'
+import { Link } from 'react-router-dom';
+import Voltar from '../../Components/GoBack'
 
 const SelectFerramentas = () => {
     return(
@@ -73,6 +75,8 @@ const SelectFerramentas = () => {
                             <p>Valor Total: U$ ??.???.???,??</p>
                         </Valor>
                         </Rodape>
+                        <Voltar />
+                        <Link to="/VerifyProduto"><button>Próximo</button></Link>
                     </Content>
         </Container>
     );
