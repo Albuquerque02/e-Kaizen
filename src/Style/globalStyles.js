@@ -6,7 +6,14 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #E5F0F7;
+    overflow: hidden;
   }
+
+  table {
+    max-width: 100%;
+    overflow: scroll;
+  };
+
 
   
 `
